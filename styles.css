@@ -11,11 +11,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f0e8e5;
+    background-color: #fefdfd;
     padding: 20px;
-    color: #000000;
-    box-shadow: 0px 1px 4px grey;
+    color: black;
     height: 5.5vh;
+    position: sticky;
+    top: 0;
 }
 
 body {
@@ -26,7 +27,7 @@ body {
 h1 {
     background-color: transparent;
     letter-spacing: 3px;
-    font-size: 2.1em;
+    font-size: 1.8em;
 }
 
 .icons {
@@ -45,25 +46,18 @@ h1 {
 }
 
 a {
-    width: 35%;
-    border-radius: 5px;
-    box-shadow: 0px 5px 5px grey;
-    padding: 50px;
     text-align: center;
     text-decoration: none;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-    margin-top: 3em;
-    background-color: #f0e8e5;
+    background-color: transparent;
     letter-spacing: 3px;
-    font-size: large;
+    font-size: 1.2em;
     color: #000000;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 a:hover {
-    filter: brightness(105%);
-    scale: 105%;
+    color: purple;
+    scale: 120%;
     transition: 0.2s;
 }
 
@@ -84,10 +78,10 @@ p {
 .textbox {
     padding: 15px;
     margin: 30px;
-    box-shadow: 1px 1px 3px 0px grey;
+    box-shadow: 2px 2px 3px 0px #b1aebb;
     border-radius: 10px;
-    background-color: #f0e8e5;
-    color: rgb(50, 50, 50);
+    background-color: #fefdfd;
+    color: rgb(72, 72, 72);
 }
 
 strong {
@@ -105,4 +99,3 @@ li, ul {
     margin-right: auto;
     width: 50%;
 }
-
