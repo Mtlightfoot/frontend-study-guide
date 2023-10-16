@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: "Jost", sans-serif;
     background-color: #F6F0EE;
 }
 
@@ -22,12 +23,14 @@
 body {
     background-image: url(img/liquid-cheese.svg);
     background-size: cover;
+    height: 220vh;
 }
 
 h1 {
     background-color: transparent;
     letter-spacing: 3px;
     font-size: 1.8em;
+    font-weight: 800;
 }
 
 .icons {
@@ -40,8 +43,8 @@ h1 {
     justify-content: space-around;
     align-content: space-around;
     flex-wrap: wrap;
-    margin-top: 2px; 
-    background-color: transparent;   
+    margin-top: 2px;
+    background-color: transparent;
     height: 89vh;
 }
 
@@ -69,10 +72,12 @@ a:active {
 h2 {
     background-color: transparent;
     text-align: left;
+    font-weight: 700;
 }
 
 p {
     background-color: transparent;
+    font-weight: 500;
 }
 
 .textbox {
@@ -81,16 +86,19 @@ p {
     box-shadow: 2px 2px 3px 0px #b1aebb;
     border-radius: 10px;
     background-color: #fefdfd;
-    color: rgb(72, 72, 72);
+    color: rgb(0, 0, 0);
 }
 
 strong {
     background-color: transparent;
+    font-weight: 800;
 }
 
-li, ul {
+li,
+ul {
     background-color: transparent;
     margin-left: 10px;
+    font-weight: 500;
 }
 
 .page-images {
