@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: "Jost", sans-serif;
-    background-color: #F6F0EE;
+    background-color: transparent;
 }
 
 #top {
@@ -18,12 +18,17 @@
     height: 5.5vh;
     position: sticky;
     top: 0;
+    margin-bottom: 30px;
 }
 
-body {
+.box {
+    display: flex;
+    flex-direction: column;
     background-image: url(img/liquid-cheese.svg);
+    height: 100%;
+    width: 100%;
     background-size: cover;
-    height: 220vh;
+    background-position: center;
 }
 
 h1 {
@@ -82,7 +87,9 @@ p {
 
 .textbox {
     padding: 15px;
-    margin: 30px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
     box-shadow: 2px 2px 3px 0px #b1aebb;
     border-radius: 10px;
     background-color: #fefdfd;
@@ -105,5 +112,5 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
 }
